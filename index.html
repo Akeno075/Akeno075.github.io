@@ -3,36 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redes - Página Principal</title>
+    <title>Portafolio de Proyectos - Redes</title>
+    <link rel="icon" type="image/png" href="favicon.png">
     <style>
         body {
             margin: 0;
             padding: 0;
-            background-image: url('/redes.jpg');
+            background-image: url('/conec.jpg'); /* Cambia 'imagen_redes.jpg' por tu imagen */
             background-size: cover;
             background-position: center;
             height: 100vh;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
-            color: rgb(0, 122, 188);
+            color: white;
             font-family: Arial, sans-serif;
             text-align: center;
         }
+        .header {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px 0;
+            position: fixed;
+            top: 0;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
         .contenido {
+            margin-top: 100px;
             background: rgba(0, 0, 0, 0.7);
             padding: 20px;
             border-radius: 10px;
+            max-width: 800px;
+        }
+        .proyectos {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            width: 80%;
+        }
+        .proyecto {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            width: 100%;
+            text-align: center;
         }
     </style>
 </head>
 <body>
+    <div class="header">Portafolio de Proyectos - Redes</div>
     <div class="contenido">
-        <center>
-        <h1>Redes y Telecomunicaciones</h1>
-        <p>Explora información sobre enrutamiento, protocolos y más.</p>
-    </center>
+        <h1>Bienvenido a Mi Portafolio</h1>
+        <p>Aquí encontrarás algunos de los proyectos que he realizado en el ámbito de redes y tecnología.</p>
     </div>
+    <div class="proyectos">
+        <div class="proyecto">
+            <h3>Proyecto 1</h3>
+            <p>Descripción breve del proyecto.</p>
+        </div>
+        <div class="proyecto">
+            <h3>Proyecto 2</h3>
+            <p>Descripción breve del proyecto.</p>
+        </div>
+        <div class="proyecto">
+            <h3>Proyecto 3</h3>
+            <p>Descripción breve del proyecto.</p>
+        </div>
+    </div>
+    <div class="footer">&copy; 2025 - Mi Portafolio de Redes</div>
 </body>
 </html>
-\end{code}

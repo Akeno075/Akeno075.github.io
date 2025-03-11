@@ -1,3 +1,5 @@
+
+
 document.addEventListener("DOMContentLoaded", function () {
     const botonModoOscuro = document.getElementById("modoOscuroBtn");
 

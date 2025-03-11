@@ -91,14 +91,14 @@ button:hover {
 }
 .logo-container {
     position: absolute;
-    top: 10px;
+    top: 15px;
     left: 15px;
-    width: 120px;
+    width: 150px; /* Ajusta el tamaño según sea necesario */
     height: auto;
+    background: transparent; /* Asegura que el fondo sea transparente */
 }
 
 .logo-container img {
     width: 100%;
     height: auto;
-   /* filter: brightness(0) invert(1); /* Ajusta si es necesario */
 }

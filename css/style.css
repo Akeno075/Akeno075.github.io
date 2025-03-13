@@ -3,7 +3,7 @@ body {
   color: #000000;
   background-color: #ffffff;
 }
-
+img-box
 .layout_padding {
   padding: 75px 0;
 }
@@ -327,7 +327,7 @@ a:focus {
 }
 
 .service_section .img-box img {
-  height: 200px;
+  height: 50%;
 }
 
 .service_section .detail-box {
